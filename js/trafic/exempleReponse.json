@@ -1,0 +1,1099 @@
+[
+  {
+    "estimatedTotal": 1,
+    "resources": [
+      {
+        "__type": "Route:http://schemas.microsoft.com/search/local/ws/rest/v1",
+        "bbox": [
+          48.895952,
+          2.21294,
+          48.938953,
+          2.479692
+        ],
+        "id": "v66,h822876809,i0,a0,cen-US,dAAAAAAAAAAA1,y0,s1,m1,o1,t7,wiKtYBJjjMgA1~A9pxGcXxe_EYAADgAVGEJD8A0~MjMgQXZlbnVlIEzDqW9uYXJkIGRlIFZpbmNpLCA5MjQwMCBDb3VyYmV2b2ll0~~~,wsElZBCY5OAA1~A9pxGcWRCAwZAADgAaoIzT0A0~MTIgQXZlbnVlIEplYW4tQmFwdGlzdGUgQnVzbmVsLCA5MzE1MCBMZSBCbGFuYy1NZXNuaWw1~~~,k1",
+        "distanceUnit": "Kilometer",
+        "durationUnit": "Second",
+        "routeLegs": [
+          {
+            "actualEnd": {
+              "type": "Point",
+              "coordinates": [
+                48.923783,
+                2.470748
+              ]
+            },
+            "actualStart": {
+              "type": "Point",
+              "coordinates": [
+                48.896633,
+                2.236335
+              ]
+            },
+            "alternateVias": [],
+            "cost": 0,
+            "description": "A86",
+            "endLocation": {
+              "bbox": [
+                48.91992,
+                2.46291,
+                48.927645,
+                2.478586
+              ],
+              "name": "12 Avenue Jean-Baptiste Busnel, 93150 Le Blanc-Mesnil",
+              "point": {
+                "type": "Point",
+                "coordinates": [
+                  48.923782,
+                  2.470748
+                ]
+              },
+              "address": {
+                "addressLine": "12 Avenue Jean-Baptiste Busnel",
+                "adminDistrict": "IdF",
+                "adminDistrict2": "Seine-St.-Denis",
+                "countryRegion": "France",
+                "formattedAddress": "12 Avenue Jean-Baptiste Busnel, 93150 Le Blanc-Mesnil",
+                "locality": "Le Blanc-Mesnil",
+                "postalCode": "93150"
+              },
+              "confidence": "High",
+              "entityType": "Address",
+              "geocodePoints": [
+                {
+                  "type": "Point",
+                  "coordinates": [
+                    48.923782,
+                    2.470748
+                  ],
+                  "calculationMethod": "Interpolation",
+                  "usageTypes": [
+                    "Display",
+                    "Route"
+                  ]
+                }
+              ],
+              "matchCodes": [
+                "Good"
+              ]
+            },
+            "itineraryItems": [
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 254,
+                    "endPathIndices": [
+                      2
+                    ],
+                    "maneuverType": "DepartStart",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue LÃ©onard de Vinci"
+                    ],
+                    "roadType": "Street",
+                    "startPathIndices": [
+                      0
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "DepartStart",
+                  "text": "Depart Avenue LÃ©onard de Vinci toward AllÃ©e Botticelli"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.896633,
+                    2.236335
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "towardsRoadName": "AllÃ©e Botticelli",
+                "transitTerminus": "",
+                "travelDistance": 0.114,
+                "travelDuration": 29,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 247,
+                    "endPathIndices": [
+                      4
+                    ],
+                    "maneuverType": "KeepStraight",
+                    "mode": "Driving",
+                    "names": [
+                      "Rue Berthelot"
+                    ],
+                    "roadType": "Street",
+                    "startPathIndices": [
+                      2
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "KeepStraight",
+                  "text": "Keep straight onto Rue Berthelot"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.89623,
+                    2.234918
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.034,
+                "travelDuration": 10,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 254,
+                    "endPathIndices": [
+                      8
+                    ],
+                    "maneuverType": "RoadNameChange",
+                    "mode": "Driving",
+                    "names": [
+                      "Pont LÃ©onard de Vinci"
+                    ],
+                    "roadType": "Street",
+                    "startPathIndices": [
+                      4
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RoadNameChange",
+                  "text": "Road name changes to Pont LÃ©onard de Vinci"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.896091,
+                    2.23457
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.068,
+                "travelDuration": 11,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 291,
+                    "endPathIndices": [
+                      11
+                    ],
+                    "maneuverType": "TakeRampRight",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      8
+                    ]
+                  },
+                  {
+                    "compassDegrees": 282,
+                    "endPathIndices": [
+                      19
+                    ],
+                    "locationCodes": [
+                      "F32+22863",
+                      "F32P22863"
+                    ],
+                    "maneuverType": "Merge",
+                    "mode": "Driving",
+                    "names": [
+                      "D914"
+                    ],
+                    "roadType": "Highway",
+                    "startPathIndices": [
+                      11
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RampThenHighwayRight",
+                  "text": "Take ramp right for D914"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.895952,
+                    2.233722
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 1.035,
+                "travelDuration": 109,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northwest",
+                "details": [
+                  {
+                    "compassDegrees": 312,
+                    "endPathIndices": [
+                      30
+                    ],
+                    "locationCodes": [
+                      "F32+22864"
+                    ],
+                    "maneuverType": "KeepToStayRight",
+                    "mode": "Driving",
+                    "names": [
+                      "Boulevard de la DÃ©fense"
+                    ],
+                    "roadType": "Highway",
+                    "startPathIndices": [
+                      19
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "KeepToStayRight",
+                  "text": "Keep right to stay on Boulevard de la DÃ©fense / D914"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.898918,
+                    2.220853
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 1.027,
+                "travelDuration": 68,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northeast",
+                "details": [
+                  {
+                    "compassDegrees": 300,
+                    "endPathIndices": [
+                      34
+                    ],
+                    "locationCodes": [
+                      "F32P22864"
+                    ],
+                    "maneuverType": "TakeRampRight",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      30
+                    ]
+                  },
+                  {
+                    "compassDegrees": 52,
+                    "endPathIndices": [
+                      38
+                    ],
+                    "maneuverType": "Merge",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue de la RÃ©publique"
+                    ],
+                    "roadType": "Highway",
+                    "startPathIndices": [
+                      34
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RampThenHighwayRight",
+                  "text": "Take ramp right for Avenue de la RÃ©publique toward Le Petit Nanterre / Cergy-Pontoise / Saint-Denis / Argenteuil"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.906713,
+                    2.215092
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "Le Petit Nanterre",
+                  "Cergy-Pontoise",
+                  "A86",
+                  "Saint-Denis",
+                  "Argenteuil",
+                  "D986"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.251,
+                "travelDuration": 47,
+                "travelMode": "Driving",
+                "warnings": [
+                  {
+                    "origin": "48.907523,2.21301",
+                    "severity": "Minor",
+                    "text": "Minor Congestion",
+                    "to": "48.907721,2.213262",
+                    "warningType": "TrafficFlow"
+                  }
+                ]
+              },
+              {
+                "compassDirection": "northeast",
+                "details": [
+                  {
+                    "compassDegrees": 51,
+                    "endPathIndices": [
+                      42
+                    ],
+                    "maneuverType": "TakeRampLeft",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      38
+                    ]
+                  },
+                  {
+                    "compassDegrees": 43,
+                    "endPathIndices": [
+                      119
+                    ],
+                    "locationCodes": [
+                      "F32+13182",
+                      "F32P13182",
+                      "F32+13183",
+                      "F32P13183",
+                      "F32+13184",
+                      "F32P13184",
+                      "F32+13185",
+                      "F32P13185",
+                      "F32+13186",
+                      "F32P13186",
+                      "F32+13187",
+                      "F32P13187",
+                      "F32+13188",
+                      "F32P13188",
+                      "F32+13189",
+                      "F32P13189",
+                      "F32+13190",
+                      "F32P13190",
+                      "F32+13191",
+                      "F32P13191",
+                      "F32+13194",
+                      "F32P13194",
+                      "F32+13195",
+                      "F32P13195",
+                      "F32+13196",
+                      "F32P13196",
+                      "F32+13197",
+                      "F32P13197",
+                      "F32+13198",
+                      "F32+13200",
+                      "F32P13198"
+                    ],
+                    "maneuverType": "Merge",
+                    "mode": "Driving",
+                    "names": [
+                      "A86"
+                    ],
+                    "roadShieldRequestParameters": {
+                      "bucket": 3080833,
+                      "shields": [
+                        {
+                          "labels": [
+                            "A86"
+                          ],
+                          "roadShieldType": 2
+                        }
+                      ]
+                    },
+                    "roadType": "LimitedAccessHighway",
+                    "startPathIndices": [
+                      42
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RampThenHighwayLeft",
+                  "text": "Take ramp left for A86 toward Saint-Denis / Colombes / Bezons / Cergy-Pontoise / Argenteuil"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.907882,
+                    2.213472
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "A86",
+                  "Saint-Denis",
+                  "Colombes",
+                  "Bezons",
+                  "Cergy-Pontoise",
+                  "Argenteuil"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 21.26,
+                "travelDuration": 908,
+                "travelMode": "Driving",
+                "warnings": [
+                  {
+                    "origin": "48.913531,2.434072",
+                    "severity": "Serious",
+                    "text": "Serious Congestion",
+                    "to": "48.913509,2.434142",
+                    "warningType": "TrafficFlow"
+                  }
+                ]
+              },
+              {
+                "compassDirection": "east",
+                "details": [
+                  {
+                    "compassDegrees": 103,
+                    "endPathIndices": [
+                      123
+                    ],
+                    "maneuverType": "TakeRampRight",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      119
+                    ]
+                  },
+                  {
+                    "compassDegrees": 99,
+                    "endPathIndices": [
+                      126
+                    ],
+                    "maneuverType": "Merge",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Paul Vaillant-Couturier"
+                    ],
+                    "roadShieldRequestParameters": {
+                      "bucket": 3080851,
+                      "shields": [
+                        {
+                          "labels": [
+                            "N186"
+                          ],
+                          "roadShieldType": 3
+                        }
+                      ]
+                    },
+                    "roadType": "Highway",
+                    "startPathIndices": [
+                      123
+                    ]
+                  }
+                ],
+                "exit": "15",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RampThenHighwayRight",
+                  "text": "At exit 15, take ramp right for N186 / Avenue Paul Vaillant-Couturier toward Bondy / Meaux / AÃ©roport Charles de Gaulle / Aulnay S/Bois"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.906659,
+                    2.45693
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "Bondy",
+                  "Meaux",
+                  "AÃ©roport Charles de Gaulle",
+                  "Aulnay S/Bois"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.78,
+                "travelDuration": 61,
+                "travelMode": "Driving",
+                "warnings": [
+                  {
+                    "origin": "48.905602,2.465202",
+                    "severity": "Moderate",
+                    "text": "Moderate Congestion",
+                    "to": "48.905629,2.465798",
+                    "warningType": "TrafficFlow"
+                  }
+                ]
+              },
+              {
+                "compassDirection": "east",
+                "details": [
+                  {
+                    "compassDegrees": 90,
+                    "endPathIndices": [
+                      128
+                    ],
+                    "maneuverType": "KeepStraight",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Paul Vaillant-Couturier"
+                    ],
+                    "roadType": "Highway",
+                    "startPathIndices": [
+                      126
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "KeepStraight",
+                  "text": "Keep straight onto Avenue Paul Vaillant-Couturier"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.905672,
+                    2.467128
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "AÃ©roport Charles de Gaulle",
+                  "Aulnay S/ Bois",
+                  "A3",
+                  "Lille"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.177,
+                "travelDuration": 14,
+                "travelMode": "Driving",
+                "warnings": [
+                  {
+                    "origin": "48.905672,2.467128",
+                    "severity": "Minor",
+                    "text": "Minor Congestion",
+                    "to": "48.905672,2.469531",
+                    "warningType": "TrafficFlow"
+                  }
+                ]
+              },
+              {
+                "compassDirection": "northeast",
+                "details": [
+                  {
+                    "compassDegrees": 89,
+                    "endPathIndices": [
+                      138
+                    ],
+                    "maneuverType": "TakeRampStraight",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      128
+                    ]
+                  },
+                  {
+                    "compassDegrees": 39,
+                    "endPathIndices": [
+                      143
+                    ],
+                    "locationCodes": [
+                      "F32+11096"
+                    ],
+                    "maneuverType": "Merge",
+                    "mode": "Driving",
+                    "names": [
+                      "E15",
+                      "A3"
+                    ],
+                    "roadShieldRequestParameters": {
+                      "bucket": 3080833,
+                      "shields": [
+                        {
+                          "labels": [
+                            "E15"
+                          ],
+                          "roadShieldType": 1
+                        }
+                      ]
+                    },
+                    "roadType": "LimitedAccessHighway",
+                    "startPathIndices": [
+                      138
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RampToHighwayStraight",
+                  "text": "Take ramp for E15 / A3"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.905672,
+                    2.469531
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 1.473,
+                "travelDuration": 74,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northeast",
+                "details": [
+                  {
+                    "compassDegrees": 35,
+                    "endPathIndices": [
+                      145
+                    ],
+                    "maneuverType": "TakeRampRight",
+                    "mode": "Driving",
+                    "roadType": "Ramp",
+                    "startPathIndices": [
+                      143
+                    ]
+                  }
+                ],
+                "exit": "4",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "TakeRampRight",
+                  "text": "At exit 4, take ramp right toward Bondy-Nord"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.916331,
+                    2.478093
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "Bondy-Nord"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.19,
+                "travelDuration": 14,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 90,
+                    "endPathIndices": [
+                      151
+                    ],
+                    "maneuverType": "EnterRoundabout",
+                    "mode": "Driving",
+                    "roadType": "MajorRoad",
+                    "startPathIndices": [
+                      145
+                    ]
+                  },
+                  {
+                    "compassDegrees": 275,
+                    "endPathIndices": [
+                      154
+                    ],
+                    "maneuverType": "ExitRoundabout",
+                    "mode": "Driving",
+                    "names": [
+                      "D78"
+                    ],
+                    "roadType": "MajorRoad",
+                    "startPathIndices": [
+                      151
+                    ]
+                  }
+                ],
+                "exit": "7",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "EnterThenExitRoundabout",
+                  "text": "At roundabout, take 7th exit onto D78"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.917833,
+                    2.479343
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "D78",
+                  "Porte de Bagnolet",
+                  "A3",
+                  "Paris",
+                  "Le Blanc Mesnil"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.24,
+                "travelDuration": 35,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northwest",
+                "details": [
+                  {
+                    "compassDegrees": 12,
+                    "endPathIndices": [
+                      157
+                    ],
+                    "maneuverType": "EnterRoundabout",
+                    "mode": "Driving",
+                    "names": [
+                      "Rond-point du Verger"
+                    ],
+                    "roadType": "MajorRoad",
+                    "startPathIndices": [
+                      154
+                    ]
+                  },
+                  {
+                    "compassDegrees": 302,
+                    "endPathIndices": [
+                      159
+                    ],
+                    "maneuverType": "ExitRoundabout",
+                    "mode": "Driving",
+                    "names": [
+                      "RÃ©sidence du Parc",
+                      "Rue du Verger"
+                    ],
+                    "roadType": "Arterial",
+                    "startPathIndices": [
+                      157
+                    ]
+                  }
+                ],
+                "exit": "1",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "EnterThenExitRoundabout",
+                  "text": "At roundabout, take 1st exit onto RÃ©sidence du Parc / Rue du Verger"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.918251,
+                    2.477229
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "signs": [
+                  "Le Blanc Mesnil"
+                ],
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.132,
+                "travelDuration": 26,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northwest",
+                "details": [
+                  {
+                    "compassDegrees": 302,
+                    "endPathIndices": [
+                      162
+                    ],
+                    "maneuverType": "RoadNameChange",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Surcouf"
+                    ],
+                    "roadType": "Arterial",
+                    "startPathIndices": [
+                      159
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "RoadNameChange",
+                  "text": "Road name changes to Avenue Surcouf"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.918911,
+                    2.47606
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.391,
+                "travelDuration": 90,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "northeast",
+                "details": [
+                  {
+                    "compassDegrees": 28,
+                    "endPathIndices": [
+                      164
+                    ],
+                    "maneuverType": "TurnRight",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Jean JaurÃ¨s"
+                    ],
+                    "roadType": "Arterial",
+                    "startPathIndices": [
+                      162
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "TurnRight",
+                  "text": "Turn right onto Avenue Jean JaurÃ¨s"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.921089,
+                    2.471859
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.306,
+                "travelDuration": 43,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 263,
+                    "endPathIndices": [
+                      166
+                    ],
+                    "maneuverType": "TurnLeft",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Jean-Baptiste Busnel"
+                    ],
+                    "roadType": "Street",
+                    "startPathIndices": [
+                      164
+                    ]
+                  }
+                ],
+                "exit": "",
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "TurnLeft",
+                  "text": "Turn left onto Avenue Jean-Baptiste Busnel"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.92382,
+                    2.471023
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0.02,
+                "travelDuration": 7,
+                "travelMode": "Driving"
+              },
+              {
+                "compassDirection": "west",
+                "details": [
+                  {
+                    "compassDegrees": 261,
+                    "endPathIndices": [
+                      166
+                    ],
+                    "maneuverType": "ArriveFinish",
+                    "mode": "Driving",
+                    "names": [
+                      "Avenue Jean-Baptiste Busnel"
+                    ],
+                    "roadType": "Street",
+                    "startPathIndices": [
+                      166
+                    ]
+                  }
+                ],
+                "exit": "",
+                "hints": [
+                  {
+                    "hintType": "PreviousIntersection",
+                    "text": "The last intersection is Avenue Jean JaurÃ¨s"
+                  },
+                  {
+                    "hintType": "NextIntersection",
+                    "text": "If you reach Avenue Jean Bart, you've gone too far"
+                  }
+                ],
+                "iconType": "Auto",
+                "instruction": {
+                  "formattedText": null,
+                  "maneuverType": "ArriveFinish",
+                  "text": "Arrive at 12 Avenue Jean-Baptiste Busnel, 93150 Le Blanc-Mesnil"
+                },
+                "maneuverPoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.923783,
+                    2.470748
+                  ]
+                },
+                "sideOfStreet": "Unknown",
+                "tollZone": "",
+                "transitTerminus": "",
+                "travelDistance": 0,
+                "travelDuration": 0,
+                "travelMode": "Driving"
+              }
+            ],
+            "routeRegion": "EU",
+            "routeSubLegs": [
+              {
+                "endWaypoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.923783,
+                    2.470748
+                  ],
+                  "description": "12 Avenue Jean-Baptiste Busnel, 93150 Le Blanc-Mesnil",
+                  "isVia": false,
+                  "locationIdentifier": "3|218|113|25|197|145|8|12|25|0|0|224|1|170|8|205|61|0|48.923783,2.470748",
+                  "routePathIndex": 166
+                },
+                "startWaypoint": {
+                  "type": "Point",
+                  "coordinates": [
+                    48.896633,
+                    2.236335
+                  ],
+                  "description": "23 Avenue LÃ©onard de Vinci, 92400 Courbevoie",
+                  "isVia": false,
+                  "locationIdentifier": "3|218|113|25|197|241|123|241|24|0|0|224|1|81|132|36|63|0|48.896633,2.236335",
+                  "routePathIndex": 0
+                },
+                "travelDistance": 27.498,
+                "travelDuration": 1557
+              }
+            ],
+            "startLocation": {
+              "bbox": [
+                48.89277,
+                2.228502,
+                48.900496,
+                2.244169
+              ],
+              "name": "23 Avenue LÃ©onard de Vinci, 92400 Courbevoie",
+              "point": {
+                "type": "Point",
+                "coordinates": [
+                  48.896633,
+                  2.236335
+                ]
+              },
+              "address": {
+                "addressLine": "23 Avenue LÃ©onard de Vinci",
+                "adminDistrict": "IdF",
+                "adminDistrict2": "Hauts-de-Seine",
+                "countryRegion": "France",
+                "formattedAddress": "23 Avenue LÃ©onard de Vinci, 92400 Courbevoie",
+                "locality": "Courbevoie",
+                "postalCode": "92400"
+              },
+              "confidence": "High",
+              "entityType": "Address",
+              "geocodePoints": [
+                {
+                  "type": "Point",
+                  "coordinates": [
+                    48.896633,
+                    2.236335
+                  ],
+                  "calculationMethod": "Interpolation",
+                  "usageTypes": [
+                    "Display",
+                    "Route"
+                  ]
+                }
+              ],
+              "matchCodes": [
+                "Good"
+              ]
+            },
+            "travelDistance": 27.498,
+            "travelDuration": 2062
+          }
+        ],
+        "trafficCongestion": "Medium",
+        "trafficDataUsed": "FlowAndClosure",
+        "travelDistance": 27.498,
+        "travelDuration": 1557,
+        "travelDurationTraffic": 2062
+      }
+    ]
+  }
+]
